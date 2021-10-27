@@ -7,15 +7,30 @@
   pointer-events: none;
 }
 
-.SearchInput{
-margin-top: 2%;
-margin-bottom: 0.5%;
+.SearchInput {
+  margin-top: 2%;
+  margin-bottom: 0.5%;
 }
 
-.SearchResult{
-background-color: pink;
+.SearchResult {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
 }
 
+.f {
+  background-color: pink;
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  border-radius: 20px;
+}
+.m {
+  background-color: lightblue;
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  border-radius: 20px;
+
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

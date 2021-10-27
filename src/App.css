@@ -7,6 +7,15 @@
   pointer-events: none;
 }
 
+.SearchInput{
+margin-top: 2%;
+margin-bottom: 0.5%;
+}
+
+.SearchResult{
+background-color: pink;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
